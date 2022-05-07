@@ -8,6 +8,7 @@ This contains all of my fitbit projects.
 	- The server starts on your PC when you start up fitbit shell, so once you use `npx fitbit` make sure to connect your device to the server before using `bi`
 - There were a lot of errors that came up, and I resolved them with the help of google/fitbit discussion boards
 - My device, the Fitbit Versa 2, is a bit older and I'm not getting updates for it for some reason - you're supposed to update through your phone, and it doesn't come up automatically, and you can't check for updates - so I'm being forced to use an older version of the SDK `4.1.0`, and because it doesn't work with newer verisons of node, I'm using node version `16.0.0`
+- The `buildTargets` in `package.json` refer to different Fitbit devides. A reference is [available on Fitbit docs](https://dev.fitbit.com/build/guides/multiple-devices/)
 
 
 ## Resources
